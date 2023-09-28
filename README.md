@@ -14,6 +14,5 @@ There is no standardised way format for medatada.
 
 Some artists may share the same name as other artists, who may make wildly different music. This can create retrievability issues and even confusion: when trying to access the music of one of these artists, they may retrieve the artists' namesake music instead. While Discogs has records for 9 bands named "The Killers", in addition to a band named "Killers" and another named "Los Killers", it is unlikely that people looking to retrieve music by the band I have chosen will access someone else's music by accident, as currently they seem to have a much bigger streaming base (as reported by Spotify). However, this may be an issue for those looking to retrieve music from any of the 10 other artists that share the same name, which may be more difficult to access.
 
-\[Enter your responses to Week 1, tasks 2 and 3 here\]
 
 [week 2](week2.md)
