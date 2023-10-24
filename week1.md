@@ -34,4 +34,6 @@ Both Spotify and Apple Music record song plays and the likes these songs receive
 
 Due to The Killers' popularity, it is not hard to find sheet music for most of their releases. As of October 25, there are 136 music sheets in [Musescore.com](https://musescore.com/artist/the_killers-133583). I tried locating music sheets for two of the band's most obsucre songs, _Why Do I Keep Counting?_, and _Andy, You're a Star_, and these were available for sale on [Sheet Music Now](https://www.sheetmusicnow.com/) and [Fresh Sheet Music](https://freshsheetmusic.com/).
 
+#### Acoustic Data
 
+The Killers' music is widely available in streaming platforms, and it can also be found in YouTube, where the band has a [channel](https://www.youtube.com/channel/UCkhyoTaWKuB-Rdbb6Z3Z5DA). The band's website also features their music videos, as well as some live videos and 'visualiser' videos (track audios accompanied by simple visuals created for the video) in their website, under the 'Videos' section.
