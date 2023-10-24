@@ -1,6 +1,6 @@
 # MCA
 
-## Task 1: Theme
+## Task 1: Dataset Theme
 **Identify a theme for your dataset**
 
 The theme I have chosen is the band The Killers. The were formed in 2001 in Las Vegas, Nevada (United States). The band currently consists of four members: Brandon Flowers (lead vocals, keyboard), Dave Keuning (lead guitar, backing vocals), Mark Stoermer (bass, rhythm guitar, backing vocals) and Ronnie Vannucci Jr. (drums, percussion).¹ The Killers have released seven studio albums to date: their debut _Hot Fuss_ (2004), _Sam's Town_ (2006), _Day & Age_  (2008), _Battle Born_ (2012), _Wonderful Wonderful_ (2017), _Imploding the Mirage_ (2020), and _Pressure Machine_ (2021). They have also released one live album, _Live from the Royal Albert Hall_, recorded in London and released in 2009, and three compilation albums: _Sawdust_ (2007), _Direct Hits_ (2013), and the Christmas compilation _Don't Waste Your Wishes_ (2016).² In November 2020, The Killers had sold 28 million albums worldwide.³
@@ -11,7 +11,7 @@ I have chosen The Killers as my dataset theme because, ever since I heard their 
 ² ‘The Killers on Apple Music’, Apple Music - Web Player <https://music.apple.com/gb/artist/the-killers/6483093> [accessed 24 October 2023]\
 ³ Christman, Ed, ‘The Killers’ Catalog Acquired in Eldridge’s First Music Publishing Deal’, Billboard, 2020 <https://www.billboard.com/pro/killers-catalog-acquired-eldridge-publishing-deal/> [accessed 24 October 2023]
 
-## Task 2: Challenges
+## Task 2: Dataset Challenges
 **Based on your own experience, what do you think are some challenges to working with music and music-related data (perhaps related to access, curation, distribution, etc.)? How does your selected theme display some of these challenges? Describe the current manifestations of data relating to your selected theme, discussing how it is presently curated (collected and gathered) and how it is presented, described, and analysed.**
 
 Some of the challenges surrounding working with music data relate specifically to metadata.
