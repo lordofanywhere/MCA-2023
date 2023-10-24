@@ -25,3 +25,13 @@ Some artists may share the same name as other artists, who may make wildly diffe
 Disappointingly, the band's [official website](https://thekillersmusic.com) does not offer a way of browsing the band's releases in chronological order or by release type. However, the 'Music' section of the website does offer a comprehensive collection of the band's releases, which includes albums, compilations, EPs and singles, including singles only released digitally. Descriptive data is not provided for any release on this section.
 
 On the band's official website, the only place where minimal descriptive data is provided in on the [Merch](https://shopuk.thekillersmusic.com/?utm_source=Original&utm_campaign=20210718&utm_medium=channel.utm_medium&utm_referrer=direct&utm_board=island-records-us&utm_country=US&utm_linkurl=TheKillers.lnk.to%2FPMStore&lf=457ac199c1cfba34fb9d302ef411593a) section, which has a 'Music' category. However, the only descriptive data provided here are the **format** of the releases on sale and the **label** where they were released.
+
+The Killers' music is available in most streaming platforms, including Apple Music, Spotify, Tidal and Deezer. However, while all platforms show album name, release year, label (except for Tidal) and track duration, the display of other descriptive data varies across platforms. For the same song, _When You Were Young_, Deezer shows only **composer**, while Spotify shows **writer(s)**, **performer** (crediting 'The Killers'), and **producer** for the track. Apple Music provides the most information out of all the services compared, showing **lyrics**, **performing artists** (individually crediting each band member), individuals responsible for **composition & lyrics**, and **production & engineering**, individually listing each role. Tidal, in contrast, does not provide any additional credits, at least on the limited web player provided to non-users.
+
+Both Spotify and Apple Music record song plays and the likes these songs receive, and then categorise and organise these data in order to make decisions that result in recommending similar songs, albums or artists to users. I presume that Deezer and Tidal offer similar features, although I am not very familiar with these services.
+
+#### Notated Data
+
+Due to The Killers' popularity, it is not hard to find sheet music for most of their releases. As of October 25, there are 136 music sheets in [Musescore.com](https://musescore.com/artist/the_killers-133583). I tried locating music sheets for two of the band's most obsucre songs, _Why Do I Keep Counting?_, and _Andy, You're a Star_, and these were available for sale on [Sheet Music Now](https://www.sheetmusicnow.com/) and [Fresh Sheet Music](https://freshsheetmusic.com/).
+
+
