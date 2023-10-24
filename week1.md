@@ -3,7 +3,7 @@
 ## Task 1: Theme
 **Identify a theme for your dataset**
 
-The theme I have chosen is the band The Killers. The were formed in 2001 in Las Vegas, Nevada (United States). The band currently consists of four members: Brandon Flowers (lead vocals, keyboard), Dave Keuning (lead guitar, backing vocals), Mark Stoermer (bass, rhythm guitar, backing vocals) and Ronnie Vannucci Jr. (drums, percussion). The Killers have released seven studio albums to date: their debut _Hot Fuss_ (2004), _Sam's Town_ (2006), _Day & Age_  (2008), _Battle Born_ (2012), _Wonderful Wonderful_ (2017), _Imploding the Mirage_ (2020), and _Pressure Machine_ (2021). They have also released one live album, _Live from the Royal Albert Hall_, recorded in London and released in 2009, and three compilation albums: _Sawdust_ (2007), _Direct Hits_ (2013), and the compiulation of Christmas singles _Don't Waste Your Wishes_ (2016).
+The theme I have chosen is the band The Killers. The were formed in 2001 in Las Vegas, Nevada (United States). The band currently consists of four members: Brandon Flowers (lead vocals, keyboard), Dave Keuning (lead guitar, backing vocals), Mark Stoermer (bass, rhythm guitar, backing vocals) and Ronnie Vannucci Jr. (drums, percussion). The Killers have released seven studio albums to date: their debut _Hot Fuss_ (2004), _Sam's Town_ (2006), _Day & Age_  (2008), _Battle Born_ (2012), _Wonderful Wonderful_ (2017), _Imploding the Mirage_ (2020), and _Pressure Machine_ (2021). They have also released one live album, _Live from the Royal Albert Hall_, recorded in London and released in 2009, and three compilation albums: _Sawdust_ (2007), _Direct Hits_ (2013), and the Christmas compilation _Don't Waste Your Wishes_ (2016).
 
 
 ## Task 2: Challenges
