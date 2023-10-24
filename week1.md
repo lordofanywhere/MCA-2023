@@ -7,9 +7,9 @@ The theme I have chosen is the band The Killers. The were formed in 2001 in Las 
 
 I have chosen The Killers as my dataset theme because, ever since I heard their hits _Somebody told me_ and _Mr. Brightside_, I have been a fan of the band. I have had the opportunity to see their musical growth throughout the years and how they have experimented with song arrangements on different performances, remixes and re-recordings. I am familiar with their catalogue, and I would like to embrace the opportunity of discovering a new perspective of their music through analysing their music and music data.
 
-¹ ‘The Killers - Biography’, IMDb <https://www.imdb.com/name/nm1736962/bio/> [accessed 24 October 2023]
-² ‘The Killers on Apple Music’, Apple Music - Web Player <https://music.apple.com/gb/artist/the-killers/6483093> [accessed 24 October 2023]
-³ Christman, Ed, ‘The Killers’ Catalog Acquired in Eldridge’s First Music Publishing Deal’, Billboard, 2020 <https://www.billboard.com/pro/killers-catalog-acquired-eldridge-publishing-deal/> [accessed 24 October 2023]
+¹ ‘The Killers - Biography’, IMDb <https://www.imdb.com/name/nm1736962/bio/> [accessed 24 October 2023]\
+² ‘The Killers on Apple Music’, Apple Music - Web Player <https://music.apple.com/gb/artist/the-killers/6483093> [accessed 24 October 2023]\
+³ Christman, Ed, ‘The Killers’ Catalog Acquired in Eldridge’s First Music Publishing Deal’, Billboard, 2020 <https://www.billboard.com/pro/killers-catalog-acquired-eldridge-publishing-deal/> [accessed 24 October 2023]\
 
 ## Task 2: Challenges
 **Based on your own experience, what do you think are some challenges to working with music and music-related data (perhaps related to access, curation, distribution, etc.)? How does your selected theme display some of these challenges? Describe the current manifestations of data relating to your selected theme, discussing how it is presently curated (collected and gathered) and how it is presented, described, and analysed.**
