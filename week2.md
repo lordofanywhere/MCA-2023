@@ -9,7 +9,11 @@ This arrangement is for Piano, Vocal and Guitar, and it is in key B Major.
 
 ### Transcription challenges
 
-The source was a digitisation of a music sheet in great condition, which resulted in very few transcription errors when using the automated PDF import tool provided by MuseScore, particularly in contrast with the Mozart piece we imported as a group, which was digitised from an old source and contained many artifacts that made the import process challenging, as well as symbols that MuseScore did not recognise.
+The source was a digitisation of a music sheet in great condition, which resulted in very few transcription errors when using the automated PDF import tool provided by MuseScore, particularly in contrast with the Mozart piece we imported as a group, which was digitised from an old source and contained many artifacts that made the import process challenging, as well as symbols that MuseScore did not recognise. However, I did find some challenges despite working with source material which was in a relatively better condition.
+
+Most of the issues I encountered related to symbols not recognised by MuseScore, or some not present in the source material added by the tool. However, these were fairly easy to overcome. Much more difficult were the issues presented by MuseScore 4 when working with time signatures, which prevented me from matching the source material in bars 14, 16 and 17. I could not add the fretboard diagrams that the source material featured either, as these were not available in MuseScore 4.
+
+### Music Sheets
 
 Below are the first two pages from the original music sheets, and my review and/or transcription of the first 17 bars:
 
