@@ -7,4 +7,9 @@ For this task, I identified the song _When You Were Young_. This was the lead si
 
 This arrangement is for Piano, Vocal and Guitar, and it is in key B Major.
 
+Below are the first two pages from the original music sheets, and my transcription of the first 17 bars:
+
+<picture>
+  <source srcset="[https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png](https://github.com/lordofanywhere/MCA-2023/blob/master/resources/Original%201.png?raw=true)https://github.com/lordofanywhere/MCA-2023/blob/master/resources/Original%201.png?raw=true">
+</picture>
 
