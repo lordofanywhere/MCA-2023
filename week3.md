@@ -1,20 +1,6 @@
-<div class="panel-body">
-    <div id="app" class="panel" style="border: 1px solid lightgray; min-height: 800px;"></div>
-</div>
+# Music Curation and Analytics
 
-<script type="module">
-    import 'https://editor.verovio.org/javascript/app/verovio-app.js';
+## Task 3
+### Export the score you created last week to MusicXML and MEI. Then render your MEI file using Verovio in GitHub.
 
-    // Create the app - here with an empty option object
-    const app = new Verovio.App(document.getElementById("app"), {});
-
-    // Load a file (MEI or MusicXML)
-    fetch("https://github.com/lordofanywhere/MCA-2023/blob/master/resources/When%20You%20Were%20Young.mei")
-        .then(function(response) {
-            return response.text();
-        })
-        .then(function(text) {
-            app.loadData(text);
-        });
-</script>
- 
+### In the space provided on the verovio.html page, compare 3 elements in the MusicXML file to the corresponding ones in MEI. For help, look at the MusicXML documentation (https://www.w3.org/2021/06/musicxml40/) and the MEI documentation (https://music-encoding.org/guidelines/v4/content/). Think about: which attributes can be employed in each standard, which parents and children can be used, and try to think of the implications of these differences. 
