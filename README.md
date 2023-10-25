@@ -1,4 +1,4 @@
-# MCA
+# Music Curation and Analytics
 
 ## [week 1](week1.md)
 
