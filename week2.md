@@ -7,6 +7,10 @@ For this task, I identified the song _When You Were Young_. This was the lead si
 
 This arrangement is for Piano, Vocal and Guitar, and it is in key B Major.
 
+### Transcription challenges
+
+The source was a digitisation of a music sheet in great condition, which resulted in very few transcription errors when using the automated PDF import tool provided by MuseScore, particularly in contrast with the Mozart piece we imported as a group, which was digitised from an old source and contained many artifacts that made the import process challenging, as well as symbols that MuseScore did not recognise.
+
 Below are the first two pages from the original music sheets, and my review and/or transcription of the first 17 bars:
 
 #### Original Music Sheet
