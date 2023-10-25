@@ -9,7 +9,7 @@
     const app = new Verovio.App(document.getElementById("app"), {});
 
     // Load a file (MEI or MusicXML)
-    fetch("https://www.verovio.org/editor/brahms.mei")
+    fetch("https://github.com/lordofanywhere/MCA-2023/blob/master/resources/When%20You%20Were%20Young.mei")
         .then(function(response) {
             return response.text();
         })
