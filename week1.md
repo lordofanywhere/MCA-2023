@@ -1,4 +1,4 @@
-# MCA
+# Music Curation and Analytics
 
 ## Task 1: Dataset Theme
 #### Identify a theme for your dataset
