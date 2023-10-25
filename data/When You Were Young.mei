@@ -5,8 +5,17 @@
    <meiHead xml:id="mfwu2wk">
       <fileDesc xml:id="f19jq6ky">
          <titleStmt xml:id="t1skpf1z">
-            <title />
-            <respStmt />
+         	<title>When You Were Young</title>
+            <respStmt>
+                <composer>Brandon Flowers</composer>
+                <composer>Dave Keuning</composer>
+                <composer>Mark Stoermer</composer>
+                <composer>Ronnie Vannucci</composer>
+                <lyricist>Brandon Flowers</lyricist>
+                <lyricist>Dave Keuning</lyricist>
+                <lyricist>Mark Stoermer</lyricist>
+                <lyricist>Ronnie Vannucci</lyricist>
+            <respStmt>
          </titleStmt>
          <pubStmt xml:id="p10zg15r">
             <date isodate="2023-10-25" type="encoding-date">2023-10-25</date>
