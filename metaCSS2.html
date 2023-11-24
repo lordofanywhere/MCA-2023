@@ -18,9 +18,9 @@
           enableDocument: true // default is true
       }
       // A MusicXML file
-      var file = 'data/example2.mei';
+      var file = 'tasks/WhenYouWereYoung_week7.mei';
       // A MEI file
-      //var file = 'https://www.verovio.org/editor/brahms.mei';
+      //var file = 'tasks/WhenYouWereYoung_week7.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
       fetch(file)
           .then(function(response) {
@@ -43,7 +43,7 @@
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("data/example2.mei", function(data) {
+    CETEI4MEI.getHTML5("tasks/WhenYouWereYoung_week7.mei", function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
