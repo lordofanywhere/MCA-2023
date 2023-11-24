@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Week 7: Challenges to Music Curation</title>
+	</head>
+
+	<body>
+
+<!-- Navigation Menu -->
+		<section id="navmenu">
+				<div style="padding-left: 200px; padding-top: 20px;">
+					<ul>
+						<li> <a href="../index.html">Home</a></li>
+						<li> <a href="week1.html">Week 1</a></li>
+						<li> <a href="week2.html">Week 2</a></li>
+						<li> <a href="verovio.html">Week 3</a></li>
+						<li> <a href="week4.html">Week 4</a></li>
+						<li> <a href="week5.html">Week 5</a></li>
+						<li> <a class="active" href="week7.html">Week 7</a></li>
+						<li> <a href="week8.html">Week 8</a></li>
+						<li> <a href="week9.html">Week 9</a></li>
+						<li> <a href="week10.html">Week 10</a></li>
+					</ul>
+				</div>
+			</div>
+
+<!-- Title 	-->		
+		<h1>Week 7: Challenges to Music Curation</h1>
+			
+			<h2>Create a second version of your MEI file with the updated metadata</h2>
+				<p>I have updated the MEI file to conform to the <a href="https://music-encoding.org/guidelines/v5/content/index.html" download target="_blank">MEI Guidelines 5.0</a>. In my previous MEI file, I had included the composition and songwriting metadata in more than one occasion, resulting in redundant metadata.</p>
+				<p>I have added to the metadata the following elements:
+					<ul>
+						<li>Genre classification.</li>
+						<li>Licensing data.</li>
+						<li>Arrangement data, including key, tempo and instruments.</li>
+					</ul>
+				<p>I have chosen the <a hrf="https://creativecommons.org/publicdomain/zero/1.0/" download target="_blank">Creative Commons CC0 1.0</a> licence (no copyright). The main reason for choosing this licence is the derivative nature of the work it covers, as it is based entirely on someone else's intellectual property, and I do not believe that it is ethical to claim any form of ownership over the encoding of the work. I am happy for any value that my work may have added to be in the public domain. As the source is under copyright, I have added a disclaimer that explains that I believe that I am not infringing on the copyright owners' exclusive rights, as educational purposes may fall under fair use.</p>
+
+			<h2>Render your revised MEI metadata along with your score on an HTML page</h2>
+			<div id="MEImeta"></div>
+  			<div id="app">Verovio is loading...</div>
+ 			 <script type="module">
+    			  import 'https://www.verovio.org/javascript/app/verovio-app.js';
+    			  const options = {
+     			     defaultView: 'responsive', // default is 'responsive', alternative is 'document'
+       				 defaultZoom: 3, // 0-7, default is 4
+          			 enableResponsive: true, // default is true
+          			 enableDocument: true // default is true
+    			  }
+     			 // A MusicXML file
+     			 var file = 'tasks/WhenYouWereYoung_week7_2.mei';
+     			 // A MEI file
+    			 //var file = 'tasks/WhenYouWereYoung_week7_2.mei';
+      			 const app = new Verovio.App(document.getElementById("app"), options);
+      			 fetch(file)
+          			.then(function(response) {
+             			 return response.text();
+         			 })
+         			 .then(function(text) {
+         			     app.loadData(text);
+        			 });
+ 			 </script>
+  			 <script>
+    			// Get, parse, and show TEI data
+   				var CETEIcean = new CETEI()
+    			CETEIcean.getHTML5("data/example.xml", function(data) {
+      				document.getElementById("TEI").appendChild(data)
+    			})
+    			// Get, parse and show MEI header data
+    			var CETEI4MEI = new CETEI()
+    			CETEI4MEI.addBehaviors({
+      			namespaces: {
+        			mei: "http://www.music-encoding.org/ns/mei"
+      				}
+    			})
+    			CETEI4MEI.getHTML5("tasks/WhenYouWereYoung_week7_2.mei", function(data) {
+     			 // get header
+     			 var meiHead = data.querySelector('mei-meiHead')
+      			document.getElementById("MEImeta").appendChild(meiHead)
+   				})
+    			var vrvToolkit = new verovio.toolkit()
+    			vrvToolkit.setOptions(options = {
+        			pageHeight: 500,
+        			pageWidth: 1000,
+        			ignoreLayout: 1,
+        			border: 20,
+        			scale: 50,
+        			adjustPageHeight: true
+    			})
+    			fetch("tasks/WhenYouWereYoung_week7_2.mei").then(function( response ) {
+        			response.text().then(function( data ) {
+          			var svg = vrvToolkit.renderData(data, {})
+          			document.getElementById('MEI').innerHTML = svg
+        			})
+    			})
+  			</script>
+	</body>
+</html>
