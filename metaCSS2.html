@@ -43,7 +43,7 @@
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("tasks/WhenYouWereYoung_week7.mei_2", function(data) {
+    CETEI4MEI.getHTML5("tasks/WhenYouWereYoung_week7_2.mei", function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -57,7 +57,7 @@
         scale: 50,
         adjustPageHeight: true
     })
-    fetch("tasks/WhenYouWereYoung_week7.mei_2").then(function( response ) {
+    fetch("tasks/WhenYouWereYoung_week7_2.mei").then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
