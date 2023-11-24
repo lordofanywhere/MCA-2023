@@ -11,10 +11,6 @@
                 <composer authURI="https://isni.org/isni/0000000130941344" authority="ISNI">Dave Keuning</composer>   
                 <composer authURI="https://isni.org/isni/0000000131096170" authority="ISNI">Mark Stoermer</composer>    
                 <composer authURI="https://isni.org/isni/0000000406746057" authority="ISNI">Ronnie Vannucci</composer>      	
-					 <lyricist authURI="https://isni.org/isni/000000011494115X" authority="ISNI">Brandon Flowers</lyricist>
-                <lyricist authURI="https://isni.org/isni/0000000130941344" authority="ISNI">Dave Keuning</lyricist>   
-                <lyricist authURI="https://isni.org/isni/0000000131096170" authority="ISNI">Mark Stoermer</lyricist>    
-                <lyricist authURI="https://isni.org/isni/0000000406746057" authority="ISNI">Ronnie Vannucci</lyricist>  
             <respStmt>
                <resp>Encoded by</resp>
 						<name>Victor Emilio Morales Paredes</name>
@@ -28,8 +24,7 @@
          <pubStmt xml:id="p8z55h0">
             <date isodate="2023-11-23" type="encoding-date">2023-11-23</date>
             <availability>
-            <useRestrict authURI="https://creativecommons.org/publicdomain/zero/1.0/" authority="Creative Commons"> Creative Commons CC0 (No Copyright). This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and
-                        research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
+            <useRestrict authURI="https://creativecommons.org/publicdomain/zero/1.0/" authority="Creative Commons"> Creative Commons CC0 (No Copyright). This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright owner.</useRestrict>
           </availability>
          </pubStmt>
       </fileDesc>
