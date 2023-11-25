@@ -33,6 +33,10 @@ h3{
 	font-family: 'Arial', sans-serif;
 }
 
+em {
+  font-style: bold;
+}
+
 .cover{
 	width: 100%;
 	position: absolute;
