@@ -37,6 +37,11 @@ em {
   font-style: bold;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .cover{
 	width: 100%;
 	position: absolute;
