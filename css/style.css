@@ -163,6 +163,10 @@ button:hover::before{
 	font-family: 'Arial', sans-serif;
 }
 
+.content{
+	font-family: 'Arial', sans-serif;
+}
+
 .content h2{
 	line-height: 150%;
 }
