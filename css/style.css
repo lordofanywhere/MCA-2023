@@ -21,6 +21,7 @@ body {
 }
 	
 h1{
+	font-size: 60px;
 	font-family: 'Arial', sans-serif;
 }
 
@@ -135,7 +136,7 @@ button:hover::before{
 }
 
 .title h1{ 
-	text-align: left;
+	text-align: center;
 	margin: 50px;
 	color:#fff;
 	line-height: 100%;
