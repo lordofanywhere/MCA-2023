@@ -17,9 +17,18 @@ body {
 	background-image: url("../resources/hot_fuss.png");
 }
 
+.cover{
+	width: 100%;
+	position: absolute;
+	top: 50%; 
+	transform: translateY(-50%);
+	text-align: center;
+	color:#000
+}
+
 .main-menu{
 	text-align: center; 
-	font-family: 'Spartan', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 .a:link .main-menu{ 
