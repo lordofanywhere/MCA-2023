@@ -10,3 +10,16 @@ tei-teiHeader {
 body {
 	background-image: url("../resources/hot_fuss.png");
 }
+button{
+	border: 2px solid #0047AB;
+	background: none; 
+	padding: 10px 20px;
+	font-size: 20px; 
+	font-family: 'Arial', sans-serif;
+	cursor: pointer; 
+	margin: 10px;
+	color: #fff;
+	transition: 0.8s;
+	position: relative; 
+	overflow: hidden;
+}
