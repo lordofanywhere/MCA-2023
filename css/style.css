@@ -124,7 +124,7 @@ button:hover::before{
 	cursor: pointer;
 }
 
-.container1{
+.title{
 	padding: 100px;
 	padding-bottom: 15px;
 	text-align: left; 
@@ -134,7 +134,7 @@ button:hover::before{
 	font-family: 'Spartan', sans-serif;
 }
 
-.container1 h1{ 
+.title h1{ 
 	font-size: 60px;
 	text-align: center;
 	margin: 50px;
@@ -142,19 +142,19 @@ button:hover::before{
 	line-height: 100%;
 }
 
-.container1 h2{ 
+.title h2{ 
 	font-size: 48px;
 	text-align: left;
 	color:#fff;
 }
 
-.container1 p{ 
+.title p{ 
 	font-size: 20px;
 	line-height: 1.6;
 	color:#fff;
 }
 
-.container2{
+.title{
 	padding: 100px;
 	padding-bottom: 50px;
 	text-align: left; 
@@ -164,12 +164,12 @@ button:hover::before{
 	font-family: 'Spartan', sans-serif;
 }
 
-.container2 h2{
+.content h2{
 	font-size: 48px;
 	line-height: 150%;
 }
 
-.container2 h3{
+.content h3{
 	font-size: 25px;
 	line-height: 150%;
 }
