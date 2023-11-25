@@ -131,19 +131,17 @@ button:hover::before{
 	padding-left: 10%;
 	background-color: #000;
 	color: #fff;
-	font-family: 'Spartan', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 .title h1{ 
-	font-size: 60px;
-	text-align: center;
+	text-align: left;
 	margin: 50px;
 	color:#fff;
 	line-height: 100%;
 }
 
 .title h2{ 
-	font-size: 48px;
 	text-align: left;
 	color:#fff;
 }
@@ -161,16 +159,14 @@ button:hover::before{
 	padding-left: 10%;
 	background-color: #9CBDE2;
 	color: #fff;
-	font-family: 'Spartan', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 .content h2{
-	font-size: 48px;
 	line-height: 150%;
 }
 
 .content h3{
-	font-size: 25px;
 	line-height: 150%;
 }
 
