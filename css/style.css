@@ -23,7 +23,7 @@ body {
 }
 
 .a:link .main-menu{ 
-	color: #fff;
+	color: #000;
 }
 
 button{
@@ -34,7 +34,7 @@ button{
 	font-family: 'Arial', sans-serif;
 	cursor: pointer; 
 	margin: 10px;
-	color: black;
+	color: 000;
 	transition: 0.8s;
 	position: relative; 
 	overflow: hidden;
