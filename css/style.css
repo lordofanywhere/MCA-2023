@@ -204,6 +204,5 @@ button:hover::before{
 	position: relative;
 	bottom: 0;
 	left: 0;
-	padding: 20px 20px;
 	opacity: 50%;
 }
