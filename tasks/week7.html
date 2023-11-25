@@ -3,8 +3,8 @@
 	<head>
 		<title>Week 7: Challenges to Music Curation</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../css/CETEIcean.css" media="all" />
 		<link rel="stylesheet" href="../css/style.css" media="all" />
+		<link rel="stylesheet" href="../css/CETEIcean.css" media="all" />
 		<script src="../js/CETEI.js"></script>
 	</head>
 
@@ -12,7 +12,7 @@
 
 <!-- Navigation Menu -->
 		<section id="navmenu">
-				<div style="padding-left: 200px; padding-top: 20px;">
+				<div class="navbar" style="padding-left: 200px; padding-top: 20px;">
 					<ul>
 						<li> <a href="../index.html">Home</a></li>
 						<li> <a href="week1.html">Week 1</a></li>
@@ -28,9 +28,12 @@
 				</div>
 			</div>
 
-<!-- Title 	-->		
+<!-- Title 	-->	
+	<div class="title">	
 		<h1>Week 7: Challenges to Music Curation</h1>
-			
+	</div>
+<!-- Content 	-->	
+	<div class="content">
 			<h2>Create a second version of your MEI file with the updated metadata</h2>
 				<p>I have updated the MEI file to conform to the <a href="https://music-encoding.org/guidelines/v5/content/index.html" download target="_blank">MEI Guidelines 5.0</a>. In my previous MEI file, I had included the composition and songwriting metadata in more than one occasion, resulting in redundant metadata.</p>
 				<p>I have added to the metadata the following elements:
@@ -102,6 +105,7 @@
   			<p>The metadata is rendered in a somewhat readable format. However, context is not provided for the different elements, except for the date of encoding and person responsible for encoding.</p>
   			<p>In order to improve readability, we should add a descriptor to each element. I would also group metadata related to composition and other metadata inherent to the work, and separate them from metadata related to this specific transcription (source of transcription and arrangements), and metadata related to this particular encoding.</p>
   			<p>The intellectual property information is self-explanatory, but a subtitle can be added for consistency.</p>
+	</div>
 	</body>
 	<footer><p>Score rendering provided by <a href="http://www.verovio.org">Verovio</a>. Metadata rendered by <a href="https://github.com/TEIC/CETEIcean/"> CETEIcean</a>.</p></footer>
 </html>
