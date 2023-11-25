@@ -17,6 +17,10 @@ body {
 	background-image: url("../resources/hot_fuss.png");
 }
 
+h1{
+	font-family: 'Arial', sans-serif;
+}
+
 .cover{
 	width: 100%;
 	position: absolute;
