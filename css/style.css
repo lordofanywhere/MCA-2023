@@ -198,3 +198,11 @@ button:hover::before{
 	padding: 20px 20px;
 	opacity: 50%;
 }
+.student-id{
+	font-family: 'Arial', sans-serif;
+	color: #000;
+	bottom: 0;
+	left: 0;
+	padding: 20px 20px;
+	opacity: 50%;
+}
