@@ -34,7 +34,7 @@ button{
 	font-family: 'Arial', sans-serif;
 	cursor: pointer; 
 	margin: 10px;
-	color: #000;
+	color: black;
 	transition: 0.8s;
 	position: relative; 
 	overflow: hidden;
