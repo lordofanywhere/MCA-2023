@@ -14,11 +14,8 @@ tei-teiHeader {
 }
 
 body {
-	background-image: url("../resources/hot_fuss.png");
-	background-repeat: no-repeat;
- 	background-attachment: fixed;
- 	background-position: bottom right;
-}
+	background-image: url("../resources/hot_fuss.png") no-repeat center fixed;
+  	background-size: cover;
 
 h1{
 	font-family: 'Arial', sans-serif;
