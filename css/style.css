@@ -48,3 +48,12 @@ button:hover::before{
 	bottom: 0;
 	height: 180%;
 }
+
+.student-id{
+	color: #000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px 20px;
+	opacity: 50%;
+}
