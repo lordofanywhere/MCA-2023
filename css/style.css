@@ -175,6 +175,7 @@ button:hover::before{
 }
 
 .student-id{
+	font-family: 'Arial', sans-serif;
 	color: #000;
 	position: absolute;
 	bottom: 0;
