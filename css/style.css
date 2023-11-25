@@ -15,6 +15,9 @@ tei-teiHeader {
 
 body {
 	background-image: url("../resources/hot_fuss.png");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position: bottom right;
 }
 
 h1{
