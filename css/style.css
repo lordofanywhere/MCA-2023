@@ -14,7 +14,7 @@ tei-teiHeader {
 }
 
 body {
-	background-image: url("../resources/hot_fuss.png") no-repeat center fixed;
+	background-image: url("../resources/hot_fuss.png");
   	background-size: cover;
 }
 	
