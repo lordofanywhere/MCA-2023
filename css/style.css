@@ -75,6 +75,46 @@ button:hover::before{
 	height: 180%;
 }
 
+.navbar{
+	width: 100%;
+	margin: auto;
+	padding: 30px 0;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between; 
+	float: right;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	padding-top: 1em;
+}
+
+.navbar ul li a{
+	text-decoration: none; 
+	color: #fff;
+	text-transform: uppercase;	
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 5px;
+	width: 0;
+	background: #fff;
+	position: absolute; 
+	left: 0; 
+	bottom: -10px; 
+	transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+	cursor: pointer;
+}
+
 .student-id{
 	color: #000;
 	position: absolute;
