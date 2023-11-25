@@ -124,34 +124,54 @@ button:hover::before{
 	cursor: pointer;
 }
 
-.container-content{ 
-	position: relative;
-	width: 12000px; 
-	height: 300px;
-	margin: 75px auto;
-	background: #fff;
+.container1{
+	padding: 100px;
+	padding-bottom: 15px;
+	text-align: left; 
+	padding-left: 10%;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Spartan', sans-serif;
 }
 
-.container-content .box{
-	position: relative;
-	width: calc(400px - 30px);
-	height: calc(300px - 30px);
-	background: #000;
-	float: left; 
-	margin: 10px;
-	box-sizing: border-box;
-	overflow: hidden;
-	border-radius: 10px;
-}
-
-.container-content .box .box-content{
-	position: absolute;
-	top: 100px;
-	height: calc(100% - 100px);
+.container1 h1{ 
+	font-size: 60px;
 	text-align: center;
-	padding: 20px;
-	box-sizing: border-box;
-	transition: 0.5s;
+	margin: 50px;
+	color:#fff;
+	line-height: 100%;
+}
+
+.container1 h2{ 
+	font-size: 48px;
+	text-align: left;
+	color:#fff;
+}
+
+.container1 p{ 
+	font-size: 20px;
+	line-height: 1.6;
+	color:#fff;
+}
+
+.container2{
+	padding: 100px;
+	padding-bottom: 50px;
+	text-align: left; 
+	padding-left: 10%;
+	background-color: #9CBDE2;
+	color: #fff;
+	font-family: 'Spartan', sans-serif;
+}
+
+.container2 h2{
+	font-size: 48px;
+	line-height: 150%;
+}
+
+.container2 h3{
+	font-size: 25px;
+	line-height: 150%;
 }
 
 .student-id{
