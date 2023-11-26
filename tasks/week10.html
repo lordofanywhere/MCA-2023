@@ -2,15 +2,14 @@
 <html>
 	<head>
 		<title>Week 10: Audio Similarity and Transcription</title>
+<!-- Style Sheet --> 
+		<link rel="stylesheet" href="../css/style.css">
+		
 		<style>
     	html, body {
        	 	width: 100%;
         	height: 100%;
        		margin: 0;
-    	}
-    	.header {
-        	padding: 20px;
-        	height:80px;
     	}
     	#app {
         	height: 1000px;
@@ -26,7 +25,7 @@
 
 <!-- Navigation Menu -->
 		<section id="navmenu">
-				<div style="padding-left: 200px; padding-top: 20px;">
+				<div class="navbar" style="padding-left: 200px; padding-top: 20px;">
 					<ul>
 						<li> <a href="../index.html">Home</a></li>
 						<li> <a href="week1.html">Week 1</a></li>
@@ -42,9 +41,13 @@
 				</div>
 			</div>
 
-<!-- Title 	-->		
+<!-- Title 	-->	
+	<div class="title">
 		<h1>Week 10: Audio Similarity and Transcription</h1>
-			
+	</div>
+
+<!-- Content 	-->
+	<div class="content">
 			<h2>Task 1: Similarity</h2>
 				<p>I am using the same three tracks used in the previous exercise to generate the similarity matrix.</p>
 				<p>In the similarity matrix, tracks 0-3 fall within the classical genre and 4-6 fall within the rock genre. Tracks 7, 8 and 9 are all performed by The Killers, who use synths extensively in many songs.</p>
@@ -53,16 +56,17 @@
 				<p><img src="../data/similarity.png"></p>
 		<h2>Task 2: Transcription</h2>
 			<h3>Original</h3>
-				<img src="../data/WhenYouWereYoung_week10_original1.png">
-				<img src="../data/WhenYouWereYoung_week10_original2.png">
-				<img src="../data/WhenYouWereYoung_week10_original3.png">
+				<img src="../data/WhenYouWereYoung_week10_original1.png" style="display: block;margin-left:auto;margin-right:auto;width:550x;height:700px;">
+				<img src="../data/WhenYouWereYoung_week10_original2.png" style="display: block;margin-left:auto;margin-right:auto;width:550x;height:700px;">
+				<img src="../data/WhenYouWereYoung_week10_original3.png" style="display: block;margin-left:auto;margin-right:auto;width:550x;height:700px;">
 			<h3>Transcription</h3>
-				<img src="../data/WhenYouWereYoung_week10_transcription1.png">
-				<img src="../data/WhenYouWereYoung_week10_transcription2.png">
-				<img src="../data/WhenYouWereYoung_week10_transcription3.png">	
-				<img src="../data/WhenYouWereYoung_week10_transcription4.png">			
+				<img src="../data/WhenYouWereYoung_week10_transcription1.png" style="display: block;margin-left:auto;margin-right:auto;width:550x;height:700px;">
+				<img src="../data/WhenYouWereYoung_week10_transcription2.png" style="display: block;margin-left:auto;margin-right:auto;width:550x;height:700px;">
+				<img src="../data/WhenYouWereYoung_week10_transcription3.png" style="display: block;margin-left:auto;margin-right:auto;width:550x;height:700px;">	
+				<img src="../data/WhenYouWereYoung_week10_transcription4.png" style="display: block;margin-left:auto;margin-right:auto;width:550x;height:700px;">			
 			<h3>Analysis</h3>
 			<p>The polyphonic transcription rendered by Sonic Visualiser significantly differed from the original WAV input. Not only does the notated data look different in the transcription (there are two staves instead of three, and there are G clefs throughout the score in bars on an F-clef staff), but the musical output is also significantly different. Up until bar 11, the transcription does not sound too bad. However, in bar 12 and from bar 17 onwards, the original input is barely recognisable in the transcription. The transcription has, however, recognised the original tempo (120 BPM) and the time signature (4/4).</p>
 			<p>Interestingly, automatic polyphonic transcription struggles to transcribe a computer-generated WAV file with minimal instrumentation and background noise. I think automatic polyphonic transcription may not be recommended at a large scale in a commercial setting, as it may require extensive human examination and correction. It may struggle with audio containing more instrumentation and/or recorded live. After further research and development of the tool, these limitations will likely change when commercial large-scale use can be reevaluated.</p>
+	</div>
 	</body>
 </html>
