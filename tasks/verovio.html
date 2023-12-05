@@ -47,6 +47,15 @@
         <p>One of the differences I have found between MusicXML and MEI is how each standard deals with responsibility attribution. MusicXML has a <a href="https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/rights/" target="_blank">rights element</a> which is similar to the Dublin core rights element, and is used to record copyright and other intellectual property information. MusicXML supports multiple <rights> with different attributes to account for the attribution of different responsible individuals. In contrast, MEI, following a scholarly model, makes a distinction between the creator(s) of the piece of music (i.e., the song) and the creator of the music sheet file (i.e., the responsible for this particular arrangement). The songwriters and composers are recorded in the <a hrf="https://music-encoding.org/guidelines/v4/content/metadata.html#headerTitleStatement" target="_blank">Title Statement</a>, and the responsible individuals for the musical text will be recorded in the <a hrf="https://music-encoding.org/guidelines/v4/content/metadata.html#headerrespstatement" target="_blank"><respStmnt> (Responsibility Attribution) element</a>.</p>
         <p> Additionally, MEI uses abbreviations in its elements, which makes it necessary to familiarise with its documentation, whereas MusicXML uses more descriptive names for its elements, which facilitates human readability, even if the standard documentation is not available.</p>
         <p>Another difference between the two standards is how elements are defined: in MEI, each element seems to have a computer-generated <a href="https://www.w3.org/TR/xml-id/" target="_blank">XML ID</a> assigned. This is not the case in MusicXML, and it may have implications when creating and editing documents (besides metadata) using plain text editors, despite this not being the intended use for any of the two formats.</p>
+	<p>These are some examples of how MusicXML and MEI differ:
+		<ul>
+		  <li>Intellectual property:
+			  <ul>
+				  <li>In MusicXML, this is indicated in MusicXML using the <pre><rights></pre> element. Multiple <pre><rights></pre> elements (differentiatied with the <pre>type</pre> attribute) can be added to encode different types of elements subject to copyright (e.g., lyrics, music, derivatives, etc), and these are not defined in the standard (except for <pre>music</pre>, <pre>words</pre>, and <pre>arrangement</pre>, which are standard values). This element is nested under <pre><identification></pre>, which contains basic metadata about the score</li>
+				  <li>In MEI, intellectual property is encoded in the element <pre><useRestrict></pre>.</li>
+			  </ul>
+		  <li>Tea</li>
+		</ul></p>
     <div id="app">Verovio is loading...</div>
     <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
