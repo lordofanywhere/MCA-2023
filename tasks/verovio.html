@@ -51,14 +51,19 @@
 		<ul>
 		  <li><b></b>Intellectual property:</b></li>
 			  <ul>
-				  <li>In MusicXML, this is indicated using the &lt;rights&gt; element. Multiple &lt;rights$gt; elements (differentiatied with the <i>type</i> attribute) can be added to encode different types of elements subject to copyright (e.g., lyrics, music, derivatives, etc), and these are not defined in the standard (except for <i>music</i>, <i>words</i>, and <i>arrangement</i>, which are standard values). This element is nested under &lt;identification$gt;, which contains basic metadata about the score.</li>
-				  <li>In MEI, intellectual property is encoded in the element &lt;useRestrict$gt;. It is nested under the &lt;availability$gt; element (used to describe detailed access information regarding the MEI file) and includes standardised attributes to reference authoritative databases and/or controlled vocabularies, which allows for more disambiguation.</li>
+				  <li>In MusicXML, this is indicated using the &lt;rights&gt; element. Multiple &lt;rights&gt; elements (differentiatied with the <i>type</i> attribute) can be added to encode different types of elements subject to copyright (e.g., lyrics, music, derivatives, etc), and these are not defined in the standard (except for <i>music</i>, <i>words</i>, and <i>arrangement</i>, which are standard values). This element is nested under &lt;identification&gt;, which contains basic metadata about the score.</li>
+				  <li>In MEI, intellectual property is encoded in the element &lt;useRestrict&gt;. It is nested under the &lt;availability&gt; element (used to describe detailed access information regarding the MEI file) and includes standardised attributes to reference authoritative databases and/or controlled vocabularies, which allows for more disambiguation.</li>
 			  </ul>
 		  <li><b></b>Time signature:</b></li>
 			  <ul>
-				  <li>In MusicXML, this is indicated using the <code><time></code> element. The denominator in time signatures are represented under <code><beats></code> and the denominator under <code><beat-type></code>.</li>
-				  <li>In MEI, intellectual property is encoded in the element &lt;useRestrict$gt;. It is nested under the &lt;availability$gt; element (used to describe detailed access information regarding the MEI file) and includes standardised attributes to reference authoritative databases and/or controlled vocabularies, which allows for more disambiguation.</li>
+				  <li>In MusicXML, this is indicated using the &lt;time&gt; element. The numerator in time signatures are represented under &lt;beats&gt; and the denominator under &lt;beat-type&gt;.</li>
+				  <li>MEI uses the element &lt;meterSig&gt; for encoding time signature. It uses the attributes <i>count</i> for the numerator and <i>unit</i> for the denominator, which is more human-readable.</li>
 			  </ul>
+		  <li><b></b>Key signature:</b></li>
+			  <ul>
+				  <li>In MusicXML, this is indicated using the &lt;key&gt; element. MusicXML supports traditional and non-traditional key signatures, and it requires that following elements are nested under it: &lt;fifths&gt;, which includes the number of flats or sharps in traditional key signatures; &lt;key-step&gt;, for the pitch step to be altered in non-traditional key signatures; and &lt;alter&gt;, to represent the alteration for a pitch step in non-traditional key signatures.</li>
+				  <li>In MEI, the key signature can be encoded as an attribute of the &lt;scoreDef&gt; element, and can be enconded using simple combinations of numbers and letters (e.g., "3f" for 3 flats). Non-standard ley signatures need to be encoded using the &lt;keySig&gt; element. </li>
+			  </ul>		
 		</ul></p>
     <div id="app">Verovio is loading...</div>
     <script type="module">
